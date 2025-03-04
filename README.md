@@ -8,17 +8,7 @@ python main.py
 # Report – Perceptron
 
 ## 1. Teoretický úvod  
-Perceptron je základní model umělé neuronové sítě, který funguje jako lineární klasifikátor. Jeho princip spočívá v lineární kombinaci vstupních proměnných s váhami a následném rozhodnutí pomocí prahové funkce. Formálně lze perceptron vyjádřit rovnicí:
-$$
-y = \begin{cases}
-1, & \text{jestli } w_0 + \sum_{i=1}^{n} w_i x_i \ge 0 \\
-0, & \text{jinak}
-\end{cases}
-$$
-$$
-\text{kde } w_0 \text{ je bias a } w_i \text{ váhy jednotlivých vstupů } x_i.
-$$
-
+Perceptron je základní model umělé neuronové sítě, který funguje jako lineární klasifikátor. Jeho princip spočívá v lineární kombinaci vstupních proměnných s váhami a následném rozhodnutí pomocí prahové funkce. 
 ![Perceptron](perceptron.png)  
 Perceptron je vhodný pro úlohy, kde jsou data lineárně separabilní, tj. lze je oddělit pomocí jedné přímky (v 2D) nebo roviny (v 3D). U nelineárně separabilních úloh (např. XOR problém) tento model nestačí a je nutné použít pokročilejší architektury.
 ## 2. Dataset  
